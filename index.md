@@ -1,9 +1,5 @@
 ---
 layout: default
-title: Getting Started with Sleek
-featured-img: sleek
-mathjax: true
-description: test
 ---
 
 
