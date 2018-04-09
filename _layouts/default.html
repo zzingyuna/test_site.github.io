@@ -19,9 +19,6 @@
     {% if page.layout == 'page' %}
       {% assign page-tagline = page.tagline | escape %}
     {% endif %}
-    {% if page.layout == 'post' %}
-      {% assign page-tagline = page.tagline | escape  %}
-    {% endif %}
 
     <section class="page-header">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
