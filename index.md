@@ -3,8 +3,6 @@ layout: default
 ---
 
 
-## Getting started222
+## Getting started
 
-[네이버](http://www.naver.com)
-
-add description..
+하나씩 차근차근..
