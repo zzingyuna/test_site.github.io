@@ -1,8 +1,11 @@
 ---
-layout: default
+#
+# Here you can change the text shown in the Home page before the Latest Posts section.
+#
+# Edit cayman-blog's home layout in _layouts instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+#
+layout: home
 ---
 
-
-## Getting started
-
-하나씩 차근차근..
+목록..
