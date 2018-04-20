@@ -20,8 +20,8 @@ layout: post
 ```
 
 
-### 소스 시작..
-## Main(string[] args)
+## 소스 시작..
+### Main(string[] args)
 ```no-highlight
 
 public static bool isGetListError { get; set; }
@@ -79,3 +79,50 @@ static void Main(string[] args)
 
 ```
 
+### 법정동코드 값 가져오기 
+
+<p>국민연금 api 데이터를 가져오는 부분은 법정동코드별로 루프 돌리면서 가져오거나, 사업장코드, 사업장명을 입력해서 가져오는 경우 3가지가 있다.</p>
+<p>우리나라의 모든 사업장 정보(기업정보)를 가져오기 위해서 사업장 코드별로 호출하면 사업장코드 6자리 입력 경우의 수가 법정동 코드별 입력수보다 많아서 법정동코드별로 가져오는 방식을 선택했다.</p>
+<p>법정동코드값은 (행정표준코드관리시스템)[https://www.code.go.kr/stdcode/regCodeL.do]에서 법정동 코드자료를 다운받아 사용했다.</p>
+
+```
+
+/// <summary>
+/// 법정동코드 값 가져오기
+/// </summary>
+/// <returns></returns>
+private static List<AddrCode> GetRegionStructure()
+{
+	List<AddrCode> returnlist = new List<AddrCode>();
+	string addrFilePath = ConfigurationSettings.AppSettings["ADDR_FILE_PATH"] + "AddressCode.txt";
+
+	string[] textVal = System.IO.File.ReadAllLines(addrFilePath, Encoding.UTF8);
+	if (textVal.Length > 0)
+	{
+		for (int i = 0; i < textVal.Length; i++)
+		{
+			try
+			{
+				string[] valSplt = textVal[i].Split('\t');
+				AddrCode addItem = new AddrCode();
+				addItem.sido_code = valSplt[0];
+				addItem.sigungu_code = valSplt[1];
+				addItem.eubmyeondong_code = valSplt[2];
+				addItem.fullCode = valSplt[3];
+				addItem.code = addItem.fullCode.Substring(0, 8);
+				addItem.codeName = valSplt[4];
+				addItem.isDel = valSplt[5];
+				returnlist.Add(addItem);
+			}
+			catch (Exception e)
+			{
+				log.Error(string.Format("GetRegionStructure ERROR message:{0}", e.Message));
+			}
+
+		}
+	}
+
+	return returnlist;
+}
+
+```
