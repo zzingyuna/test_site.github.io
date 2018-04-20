@@ -52,31 +52,29 @@ static void Main(string[] args)
 	string servicekey = ConfigurationSettings.AppSettings["ServiceKey"];
 	int pageSize = int.Parse(ConfigurationSettings.AppSettings["PAGE_SIZE"]);
 
-	log.Debug("법정동코드 정보 가져오기");
+	// 법정동코드 파일을 읽어와 법정동코드 리스트를 만든다
 	List<AddrCode> regionStrcs = GetRegionStructure();
 
-	log.Debug("법정동코드를 기준으로 모든 데이터를 조회해서 가져온다");
+	// 법정동코드별로 seq list정보 가져오기
 	GetRgstList(servicekey, pageSize, regionStrcs);
+	// 가져온 법정동코드별 seq count값을 기록
 	CreateRgstListFile(fulldata, regionStrcs, "list");
 
-	log.Debug("이미 저장된 데이터는 제외처리");
+	// 기존에 저장된 seq번호는 fulldata리스트에서 제외처리 한다
 	MakeRgstList();
-	CreateRgstListFile(fulldata, regionStrcs, "clean_list");
-
-	log.Debug("가져온 리스트 데이터에 상세내용 을 넣어준다");
+	
+	// 가져온 리스트 데이터에 상세내용을 넣어준다
 	int detailCnt = SetDetailData(servicekey);
 
-	log.Debug("가져온 리스트 데이터에 현황정보를 넣어준다");
+	// 가져온 리스트 데이터에 현황정보를 넣어준다 (월별 입,퇴사자)
 	int sttusCnt = SetPdAcctoSttusData(servicekey);
-	CreateRgstListFile(fulldata, regionStrcs, "sttus");
-
-	log.Debug("가져온 데이터를 DB에 맞게 변환해준다");
+	
+	// 가져온 데이터를 DB에 맞게 변환해준다
 	List<WkplSaveModel> saveitems = ConvertdataToSavedata(fulldata, regionStrcs);
 
-	log.Debug("DB insert Start..");
+	// 데이터 최종 DB저장
 	SaveCompInfoData(saveitems);
-
-	log.Debug("Finish..!!");
+	
 }
 
 ```
