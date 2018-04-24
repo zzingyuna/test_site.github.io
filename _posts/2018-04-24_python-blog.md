@@ -1,9 +1,9 @@
 ---
 layout: post
 ---
-##### 블로그 열기 닫기
+# 블로그 열기 닫기
 
-### app.config 파일
+### python 
 
 ```no-highlight
 
