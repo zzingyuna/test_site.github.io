@@ -19,7 +19,8 @@ layout: post
 </body>
 </html>
 ```
-결과   ![alt text](https://zzingyuna.github.io/image/angular_study1.JPG)  
+결과
+![alt text](https://zzingyuna.github.io/image/angular_study1.JPG)  
 
 
 
@@ -49,7 +50,8 @@ layout: post
 </body>
 </html>
 ```
-결과   ![alt text](https://zzingyuna.github.io/image/angular_study2.JPG)  
+결과   
+![alt text](https://zzingyuna.github.io/image/angular_study2.JPG)  
 
 
 
@@ -98,6 +100,8 @@ layout: post
 </body>
 </html>
 ```
-결과   ![alt text](https://zzingyuna.github.io/image/angular_study3_1.JPG)  
-검색어를 입력하면..   ![alt text](https://zzingyuna.github.io/image/angular_study3_2.JPG)  
+결과   
+![alt text](https://zzingyuna.github.io/image/angular_study3_1.JPG)  
+검색어를 입력하면..  
+![alt text](https://zzingyuna.github.io/image/angular_study3_2.JPG)  
 
