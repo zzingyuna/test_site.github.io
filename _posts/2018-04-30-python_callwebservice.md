@@ -4,11 +4,10 @@ layout: post
 # 파이썬에서 웹서비스 호출(.asmx)
 
 
-###
-url주소1 : http://gw0.job.co.kr/DeadLinkSolutionGW.asmx?WSDL
+### url주소1 : http://gw0.job.co.kr/DeadLinkSolutionGW.asmx?WSDL ###
 url주소2 : http://gw0.job.co.kr/DeadLinkSolutionGW.asmx
-토큰키값 : egYELBe4oLcb0sZxUEjhw==
-###
+### 토큰키값 : egYELBe4oLcb0sZxUEjhw== ###
+
 
 ```no-highlight
 
