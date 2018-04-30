@@ -19,7 +19,7 @@ layout: post
 </body>
 </html>
 ```
-결과
+결과  
 ![alt text](https://zzingyuna.github.io/image/angular_study1.JPG)  
 
 
