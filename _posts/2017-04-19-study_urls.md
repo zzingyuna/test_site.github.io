@@ -5,7 +5,7 @@ layout: post
 # 스터디 웹사이트
 
 ### 노드 js
-https://velopert.com/node-js-tutorials  
+https://velopert.com/node-js-tutorials   
 https://appear.github.io/tags/Node/  
 
 http://poiemaweb.com/  
