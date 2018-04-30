@@ -145,7 +145,8 @@ Docker
 
 
 Scrapy  
-스크래피(Scrapy)는 웹 사이트를 돌아다니면서 구조화된 데이터를 추출하기 위해 파이썬(Python)으로 작성한 애플리케이션 프레임워크이다. 그리고 나서 이 데이터를 데이터 마이닝, 정보 처리, 이력 기록 등 일련의 유용한 애플리케이션에 활용할 수 있다. 본래 화면 스크랩(좀 더 정확히 말하자면 웹 스크랩)용으로 개발된 스크래피는 API를 이용한 데이터 추출(아마존 어소시에이츠 웹 서비스(Amazon Associates Web Services))에 사용하거나 일반 용도의 웹 크롤러(Web Crawler)로 사용할 수 있다. 스크래피는 스크래핑허브(Scrapinghub), 플래스(Flax), 고스크레이프(GoScrape) 등 많은 기업들이 상용 지원을 제공하고 있다. 라이선스 : https://github.com/scrapy/scrapy/blob/master/LICENSE
+스크래피(Scrapy)는 웹 사이트를 돌아다니면서 구조화된 데이터를 추출하기 위해 파이썬(Python)으로 작성한 애플리케이션 프레임워크이다. 그리고 나서 이 데이터를 데이터 마이닝, 정보 처리, 이력 기록 등 일련의 유용한 애플리케이션에 활용할 수 있다. 본래 화면 스크랩(좀 더 정확히 말하자면 웹 스크랩)용으로 개발된 스크래피는 API를 이용한 데이터 추출(아마존 어소시에이츠 웹 서비스(Amazon Associates Web Services))에 사용하거나 일반 용도의 웹 크롤러(Web Crawler)로 사용할 수 있다. 스크래피는 스크래핑허브(Scrapinghub), 플래스(Flax), 고스크레이프(GoScrape) 등 많은 기업들이 상용 지원을 제공하고 있다.  
+라이선스 : https://github.com/scrapy/scrapy/blob/master/LICENSE
 
 
 
