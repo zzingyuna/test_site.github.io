@@ -8,119 +8,119 @@ https://wikidocs.net/77
 https://wikidocs.net/5763  
 
 
-https://www.codecademy.com/learn/learn-python
-https://doc.scrapy.org/en/latest/intro/install.html#installing-scrapy
+https://www.codecademy.com/learn/learn-python  
+https://doc.scrapy.org/en/latest/intro/install.html#installing-scrapy  
 
 
-https://code.tutsplus.com/ko/tutorials/how-to-write-your-own-python-packages--cms-26076
-https://doc.scrapy.org/en/latest/intro/overview.html
-https://tonyne.jeju.onl/2015/02/04/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-scrapy-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9B%B9%ED%81%AC%EB%A1%A4%EB%9F%AC/
+https://code.tutsplus.com/ko/tutorials/how-to-write-your-own-python-packages--cms-26076  
+https://doc.scrapy.org/en/latest/intro/overview.html  
+https://tonyne.jeju.onl/2015/02/04/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-scrapy-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9B%B9%ED%81%AC%EB%A1%A4%EB%9F%AC/  
 
 
-scrapy shell   #scrapy xpath,css 찾을때 사용.
-fetch ('url....').
-view(response)   #html 웹페이지로 띄워 줌.
-print response.text.
-response.css('hr').extract_first().
+scrapy shell   #scrapy xpath,css 찾을때 사용  
+fetch ('url....')  
+view(response)   #html 웹페이지로 띄워 줌  
+print response.text  
+response.css('hr').extract_first()  
 
 
--- 샘플 페이지 (3초뒤 내용 변경되는..)
-http://pythonscraping.com/pages/javascript/ajaxDemo.html
+-- 샘플 페이지 (3초뒤 내용 변경되는..)  
+http://pythonscraping.com/pages/javascript/ajaxDemo.html  
 
 
 
-abs(x)
-절대값 반환
+abs(x)  
+절대값 반환  
 
-hex(x)
-16진수 값을 문자열로 반환
+hex(x)  
+16진수 값을 문자열로 반환  
 
-bin(x)
-주어진 수의 2진수 값을 문자열로 반환
+bin(x)  
+주어진 수의 2진수 값을 문자열로 반환  
 
-oct(x)
-주어진 수를 8진수 값을 문자열로 반환
+oct(x)  
+주어진 수를 8진수 값을 문자열로 반환  
 
-round(number[, ndigits])
-주어진 숫자를 반올림, []부분은 생략가능
+round(number[, ndigits])  
+주어진 숫자를 반올림, []부분은 생략가능  
 
-pow(x,y[,z])
-거듭제곱 
-예) pow(2,8) = 2**8,   pow(2,8,3) = 2**8%3
+pow(x,y[,z])  
+거듭제곱  
+예) pow(2,8) = 2**8,   pow(2,8,3) = 2**8%3  
 
-** 거듭제곱
+** 거듭제곱  
 
-% 나머지
+% 나머지  
 
-str.isupper()
-문자열이 모두 대문자이면 true 반환
+str.isupper()  
+문자열이 모두 대문자이면 true 반환  
 
-str.islower()
-문자열이 모두 소문자이면 true 반환
+str.islower()  
+문자열이 모두 소문자이면 true 반환  
 
-str.isalnum()
-문자열이 알파벳과 숫자로 이루어져 있으면 true 반환
+str.isalnum()  
+문자열이 알파벳과 숫자로 이루어져 있으면 true 반환  
 
-str.isalpha()
-문자열이 알파벳으로 이루어져 있으면 true 반환
+str.isalpha()  
+문자열이 알파벳으로 이루어져 있으면 true 반환  
 
-str.isdecimal()
-문자열이 모두 숫자이면 true 반환
+str.isdecimal()  
+문자열이 모두 숫자이면 true 반환  
 
-str.isprintable()
-문자열이 출력 가능하면 true 반환
+str.isprintable()  
+문자열이 출력 가능하면 true 반환  
 
-str.isspace()
-문자열이 공백 문자들이면 true 반환
+str.isspace()  
+문자열이 공백 문자들이면 true 반환  
 
-str.istitle()
-문자열의 첫번째 글자가 대문자이고 나머지가 소문자이면 true 반환
+str.istitle()  
+문자열의 첫번째 글자가 대문자이고 나머지가 소문자이면 true 반환  
 
-len(문자들..)
-문자열의 길이 값 반환
+len(문자들..)  
+문자열의 길이 값 반환  
 
-str.find(sub[,start[,end]])
-문자열에서 sub에 해당하는 문자가 위치한 인덱스 값 반환
+str.find(sub[,start[,end]])  
+문자열에서 sub에 해당하는 문자가 위치한 인덱스 값 반환  
 
-str.index(sub[,start[,end]])
-.find와 같은 동작 실행, 대신 찾는 문자열이 없으면 ValueError가 발생함
+str.index(sub[,start[,end]])  
+.find와 같은 동작 실행, 대신 찾는 문자열이 없으면 ValueError가 발생함  
 
-str.rfind(sub[,start[,end]])
-.find와 같은 동작,  뒤에서부터 검색
+str.rfind(sub[,start[,end]])  
+.find와 같은 동작,  뒤에서부터 검색  
 
-str.rindex(sub[,start[,end]])
-.index와 같은 동작, 뒤에서부터 검색
+str.rindex(sub[,start[,end]])  
+.index와 같은 동작, 뒤에서부터 검색  
 
-str.count(sub[,start[,end]])
-문자열의 개수를 센다
+str.count(sub[,start[,end]])  
+문자열의 개수를 센다  
 
-str.startswith(sub[,start[,end]])
-문자열이 prefix로 시작하는지 확인
+str.startswith(sub[,start[,end]])  
+문자열이 prefix로 시작하는지 확인  
 
-str.endswith(sub[,start[,end]])
-문자열이 suffix로 끝나는지 확인
+str.endswith(sub[,start[,end]])  
+문자열이 suffix로 끝나는지 확인  
 
-str.join(리스트)
-리스트로 된 목록을 하나의 문자열로 합친다
+str.join(리스트)  
+리스트로 된 목록을 하나의 문자열로 합친다  
+ 
+str.partition(구분자)  
+문자열을 sep를 중심으로 앞뒤로 나눈다 (구분자가 포함되어 나뉘어진다)  
 
-str.partition(구분자)
-문자열을 sep를 중심으로 앞뒤로 나눈다 (구분자가 포함되어 나뉘어진다)
+str.split(구분자=none, maxsplit=-1)  
+문자열을 sep 중심으로 압뒤로 나눈다 (maxsplit은 분리할 횟수를 지정한다)  
 
-str.split(구분자=none, maxsplit=-1)
-문자열을 sep 중심으로 압뒤로 나눈다 (maxsplit은 분리할 횟수를 지정한다)
+str.splitlines([keepends])  
+문자열이 여러줄일때 각 줄을 분리한다. 마지막 라인이 공백이면 제거  
 
-str.splitlines([keepends])
-문자열이 여러줄일때 각 줄을 분리한다. 마지막 라인이 공백이면 제거
-
-str.rpartition(구분자)
-partition과 동일한 기능, 뒤에서 검색을 시작
+str.rpartition(구분자)  
+partition과 동일한 기능, 뒤에서 검색을 시작  
 
 
 ---------------
 
 ### 파이썬 스크래핑 오픈소스
 
-pipe2py
+pipe2py  
 야후 파입스는 놀라우면서 유용한 툴이지만 더 큰 통제력을 행사하거나 자신의 머신에서 파이프를 운용하고 싶을 때가 있다. 그 해답은 바로 야후 파이프의 세부사항을 (id를 통해) 수집하고 이것을 파이썬으로 컴파일하는 파이프투파이(pipe2py)라는 툴이다. 이 파입스 엔진은 파이프투파이의 이행으로 야후 파이프 ID를 수용하며 구글 앱 엔진(Google App Engine)에서 요청에 따라 새로운 파이프를 컴파일, 저장, 운용한다. 참고로 현재 파이프 엔진에 새로운 파이프 추가 시 문제가 있어 보이며, 기존의 많은 파이프가 동작하지 않는다. 아마도 더 이상 존재하지 않는 자원이 존재하기 때문인 것으로 보인다).
 
 
