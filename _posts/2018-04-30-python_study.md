@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-# 파이썬
+# 파이썬 공부하기
 
 https://wikidocs.net/6  
 https://wikidocs.net/77  
