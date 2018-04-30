@@ -4,7 +4,7 @@ layout: post
 
 # 스터디 웹사이트
 
-### 노드 js
+### nodeJS
 https://velopert.com/node-js-tutorials   
 https://appear.github.io/tags/Node/  
 
@@ -18,7 +18,7 @@ http://blog.javarouka.me/2012/01/blog-post_2408.html?m=1
 
 
 
-## angularjs
+## angularJS
 http://visualize.tistory.com/442  
 
 
