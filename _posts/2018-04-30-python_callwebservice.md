@@ -5,9 +5,9 @@ layout: post
 
 
 ---
-url주소1 : http://gw0.job.co.kr/DeadLinkSolutionGW.asmx?WSDL
-url주소2 : http://gw0.job.co.kr/DeadLinkSolutionGW.asmx
-토큰키값 : egYELBe4oLcb0sZxUEjhw==
+#url주소1 : http://gw0.job.co.kr/DeadLinkSolutionGW.asmx?WSDL  
+#url주소2 : http://gw0.job.co.kr/DeadLinkSolutionGW.asmx  
+#토큰키값 : egYELBe4oLcb0sZxUEjhw==  
 ---
 
 ```no-highlight
