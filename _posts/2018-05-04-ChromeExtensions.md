@@ -10,7 +10,7 @@ layout: post
 확장 프로그램(노란 배경에 'Hello, World!' 뿌려주는게 다인..)  
 아래 소스 파일들을 하나의 폴더 내에 만든 후 'icon.png' 파일을 만들어 넣어준다  
 
->[manifest.json]
+>manifest.json
 ```
 {
     "manifest_version": 2,
@@ -31,8 +31,9 @@ layout: post
 ```
 
 
->[popup.html]
+>popup.html
 ```
+<!--
 <!DOCTYPE html>
 <html>
     <head>
@@ -45,6 +46,7 @@ layout: post
 	<a href="javascript:void(0);" onclick="changeBakground()">click</a>
     </body>
 </html>
+-->
 ```
 
 
