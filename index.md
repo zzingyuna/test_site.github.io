@@ -10,4 +10,4 @@ layout: home
 
 하나씩 차근차근
 
-[백엔드 로드맵](https://zzingyuna.github.io/)
+[백엔드 로드맵](https://zzingyuna.github.io/loadmap.html)
