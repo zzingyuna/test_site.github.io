@@ -38,7 +38,7 @@ layout: post
 <html>
     <head>
         <style>
-            BODY {width : 520px; min-height:250px; background-color:yellow;}
+            BODY {width : 520px; min-height:250px; }
         </style>
         <script src="popup.js"></script>
     </head>
