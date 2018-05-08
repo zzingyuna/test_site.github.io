@@ -63,6 +63,7 @@ chrome.runtime.onInstalled.addListener(function() {
 
 ```
 >chrome://extensions/페이지에서 '뷰 검사 백그라운드 페이지' 버튼을 누르면 console로 뿌린 내용이 보여진다.  
+>옵션창에서 선택한 색이 storage에 저장되고 확장프로그램 실행시 storage에서 저장된 선택 색깔이 버튼색깔이 되도록 세팅한다.  
 >declarativeContent를 통해 새탭, 새페이지를 열때는 배경색 적용이 안된 초기값으로 보여지도록 하고  
 >주석처리된 pageUrl:부분을 주석제거하면 해당 url만 확장프로그램이 실행되도록 설정할 수 있다.  
 
