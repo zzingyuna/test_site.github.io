@@ -40,8 +40,8 @@ layout: post
     }
 }
 ```
-manifest.json파일에서 'permissions' 어떤 기능을 사용(허용)할 것이지 세팅  
-options_page에 옵셥을 누르면 보여질 내용을 적용  
+>manifest.json파일에서 'permissions' 어떤 기능을 사용(허용)할 것이지 세팅  
+>options_page에 옵셥을 누르면 보여질 내용을 적용  
 
 
 ###### background.js  
@@ -62,9 +62,9 @@ chrome.runtime.onInstalled.addListener(function() {
   });
 
 ```
-chrome://extensions/페이지에서 '뷰 검사 백그라운드 페이지' 버튼을 누르면 console로 뿌린 내용이 보여진다.  
-declarativeContent를 통해 새탭, 새페이지를 열때는 배경색 적용이 안된 초기값으로 보여지도록 하고  
-주석처리된 pageUrl:부분을 주석제거하면 해당 url만 확장프로그램이 실행되도록 설정할 수 있다.  
+>chrome://extensions/페이지에서 '뷰 검사 백그라운드 페이지' 버튼을 누르면 console로 뿌린 내용이 보여진다.  
+>declarativeContent를 통해 새탭, 새페이지를 열때는 배경색 적용이 안된 초기값으로 보여지도록 하고  
+>주석처리된 pageUrl:부분을 주석제거하면 해당 url만 확장프로그램이 실행되도록 설정할 수 있다.  
 
 
 ###### popup.html  
@@ -89,7 +89,7 @@ declarativeContent를 통해 새탭, 새페이지를 열때는 배경색 적용�
     </body>
   </html>
 ```
-확장프로그램 실행시 뜨는 화면  
+>확장프로그램 실행시 뜨는 화면  
 
 
 ###### popup.js  
@@ -123,9 +123,9 @@ changeText.onclick = function(element) {
 };
 
 ```
-처음 확장프로그램 실행시 팝업이 뜨면서 'Hello, World!' 문구와 버튼 두개가 뜬다  
-'Change Text'버튼을 클릭하면 'Hello, World!' 문구가 변경되고,  
-색깔 버튼을 클릭하면 해당 색으로 브러우저 배경화면이 변경된다.  
+>처음 확장프로그램 실행시 팝업이 뜨면서 'Hello, World!' 문구와 버튼 두개가 뜬다  
+>'Change Text'버튼을 클릭하면 'Hello, World!' 문구가 변경되고,  
+>색깔 버튼을 클릭하면 해당 색으로 브러우저 배경화면이 변경된다.  
 
 
 ###### options.html  
@@ -152,8 +152,8 @@ changeText.onclick = function(element) {
     <script src="options.js"></script>
   </html>
 ```
-chrome://extensions/페이지에서 옵션을 누르면 색깔을 선택할 수 있는 옵션창이 뜬다.  
-색깔을 선택하면 확장프로그램에서 보여지는 색깔버튼의 색이 변경된다.  
+>chrome://extensions/페이지에서 옵션을 누르면 색깔을 선택할 수 있는 옵션창이 뜬다.  
+>색깔을 선택하면 확장프로그램에서 보여지는 색깔버튼의 색이 변경된다.  
 
 
 ###### options.js  
@@ -174,7 +174,7 @@ let page = document.getElementById('buttonDiv');
   }
   constructOptions(kButtonColors);
 ```
-옵션창에서 변경할 수 있는 색깔을 kButtonColors에 추가하면 지정할 수 있다.  
+>옵션창에서 변경할 수 있는 색깔을 kButtonColors에 추가하면 지정할 수 있다.  
 
 
 
