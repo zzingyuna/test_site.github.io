@@ -43,7 +43,6 @@ popup.html
         <script src="popup.js"></script>
     </head>
     <body>
-	<a href="javascript:void(0);" onclick="changeBakground()">click</a>
     </body>
 </html>
 -->
@@ -57,10 +56,6 @@ function sayHello(){
     document.body.innerText = "Hello, World!";
 }
 window.onload = sayHello;
-
-function changeBakground(){
-	
-}
 */
 ```
 
