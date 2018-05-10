@@ -38,3 +38,7 @@ layout: post
 ## 파이썬 shell 웹버전 사이트(파이썬 설치 없이 웹으로 간단한 테스트 가능)  
 [http://pythontutor.com/live.html#mode=edit](http://pythontutor.com/live.html#mode=edit)  
   
+  
+## 퍼블 블로그  
+[https://mikkeller.github.io/](https://mikkeller.github.io/)  
+  
