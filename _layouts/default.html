@@ -45,7 +45,8 @@
     
   </head>
   <body onload="test()">
-
+    <a href="#" onclick="clickShare()">페이스북 공유하기</a>
+    
     {% include site-header.html %}
 
     {% if page.layout == 'home' %}
@@ -134,6 +135,11 @@
     <script>
       function test(){
         document.getElementId('metaimg').setAttribute('content', 'http://image.alba.kr/event/494/sns_1200x628.jpg');
+      }
+      
+      function clickShare(){
+        var str = "http://www.facebook.com/dialog/share?app_id=241753946682338&display=popup&href=" + location.href;
+        window.open(str);
       }
     </script>
   </body>
