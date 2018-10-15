@@ -35,3 +35,6 @@ layout: home
 [파이썬을 파이썬답게](https://programmers.co.kr/learn/courses/4008/lessons/13254)  
 
 [정규식 뽑기](https://regexr.com/)  
+
+[여기여기](https://jetbrains.tangunsoft.com/_kr/jetbrains-day-seoul-2018/)  
+
