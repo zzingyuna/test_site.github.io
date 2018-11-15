@@ -42,4 +42,10 @@ layout: home
 
 [Burp Suite](https://lng1982.tistory.com/139)  
 
+[영어공부](https://www.mangoddeng.com/)  
+
+[자바커뮤니티](https://okky.kr/)  
+
+[닷넷커뮤니티](http://www.devpia.com/)  
+
 
