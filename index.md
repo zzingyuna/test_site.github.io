@@ -48,4 +48,7 @@ layout: home
 
 [닷넷커뮤니티](http://www.devpia.com/)  
 
+[타입스크립트](https://ahnheejong.gitbook.io/ts-for-jsdev/01-introducing-typescript/why-typescript)  
+
+
 
