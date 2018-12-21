@@ -7,12 +7,11 @@
 <meta name="og:url"             content="http://m.alba.co.kr/event/2018/Evt_498.asp" /> 
 <meta name="og:title"           content="Introducing our New Site" /> 
     
-{% if page.layout == 'home' %}
-<meta name="og:image"           content="http://image.alba.kr/event/501/sns_A1B1C1.jpg" />     
-{% else %}
-<meta name="og:image"           content="http://image.alba.kr/event/496/sns_1200x628.jpg" /> 
-{% endif %}
-    
+
+<meta name="og:image"           content="http://image.alba.kr/event/501/sns_A1B1C1.jpg" />  
+<b:if cond='data:blog.url=="https://zzingyuna.github.io/roadmap#"'>
+<meta name="og:image"           content="http://image.alba.kr/event/501/sns_A3B3C3.jpg" />    
+  </b:if>
     
 <meta name="og:description"    content="http://m.alba.co.kr/event/2018/Evt_498.asp" />
     
