@@ -4,6 +4,8 @@ layout: post
 
 # 랜덤 당첨 (classic ASP)
 
+시간이 흐를수록 당첨확률 up!!
+
 ```
 <!DOCTYPE html> 
 <html lang="en" xmlns:fb="ogp.me/ns/fb#">
