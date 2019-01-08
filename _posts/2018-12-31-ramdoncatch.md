@@ -4,7 +4,7 @@ layout: post
 
 # 랜덤 당첨 (classic ASP)
 
-'''
+```
 <!DOCTYPE html> 
 <html lang="en" xmlns:fb="ogp.me/ns/fb#">
 <head> 
@@ -318,5 +318,5 @@ next
 - 5등 : <%=l_p5count%><br /><br /><br />
 
 
-'''
+```
 
