@@ -120,6 +120,7 @@ p {
 		*/
 		var computerNum = parseInt($("#computer").attr('class').replace("butt",""));
 		var userNum = parseInt(item.className.replace("butt",""));
+		sleep(1000);
 		if((computerNum-userNum) == -2 || (computerNum-userNum) == 1){
 			alert("이겼습니다.");
 			score = score+1;
@@ -142,6 +143,17 @@ p {
 		buttNum = (buttNum+1 > 3 ? 1 : buttNum+1);
 		$("#computer").addClass("butt"+buttNum+" opp");
 	}
+	
+	//[1/1000초]
+	function sleep(num){
+	 var now = new Date();
+	   var stop = now.getTime() + num;
+	   while(true){
+		 now = new Date();
+		 if(now.getTime() > stop)return;
+	   }
+	}
+
 </script>
 </body>
 </html>
