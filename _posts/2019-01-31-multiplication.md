@@ -17,20 +17,9 @@ layout: post
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Page Title</title>
   <style>
-body {
-  background-color: gainsboro;
-}
-
-h1 {
-  color: darkcyan;
-  text-align: center;
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
-
+body {  background-color: gainsboro;}
+h1 {  color: darkcyan;  text-align: center;}
+p {  font-family: verdana;  font-size: 20px;}
   </style>
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
