@@ -17,80 +17,21 @@ layout: post
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Page Title</title>
   <style>
-body {
-  background-color: gainsboro;
-}
-
-h1 {
-  color: darkcyan;
-  text-align: center;
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
-
-img {
-cursor: pointer;
-}
-
-.ok {
-background:url("https://en.pimg.jp/009/321/808/1/9321808.jpg");
-width: 30px;
-height:30px;
-background-size: 30px;
-}
-.ans1{
-position: absolute;
-top: 465px;
-left: 103px;
-}
-.ans1_1{
-position: absolute;
-top: 465px;
-left: 493px;
-}
-.ans2{
-position: absolute;
-top: 555px;
-left: 199px;
-}
-.ans2_1{
-position: absolute;
-top: 555px;
-left: 583px;
-}
-.ans3{
-position: absolute;
-top: 573px;
-left: 63px;
-}
-.ans3_1{
-position: absolute;
-top: 573px;
-left: 447px;
-}
-.ans4{
-position: absolute;
-top: 483px;
-left: 238px;
-}
-.ans4_1{
-position: absolute;
-top: 483px;
-left: 636px;
-}
-.ans5{
-position: absolute;
-top: 630px;
-left: 80px;
-}
-.ans5_1{
-position: absolute;
-top: 584px;
-left: 473px;
-}
+body {  background-color: gainsboro;}
+h1 {  color: darkcyan;  text-align: center;}
+p {  font-family: verdana;  font-size: 20px;}
+img {cursor: pointer;}
+.ok {background:url("https://en.pimg.jp/009/321/808/1/9321808.jpg");width: 30px;height:30px;background-size: 30px;}
+.ans1{position: absolute;top: 465px;left: 103px;}
+.ans1_1{position: absolute;top: 465px;left: 493px;}
+.ans2{position: absolute;top: 555px;left: 199px;}
+.ans2_1{position: absolute;top: 555px;left: 583px;}
+.ans3{position: absolute;top: 573px;left: 63px;}
+.ans3_1{position: absolute;top: 573px;left: 447px;}
+.ans4{position: absolute;top: 483px;left: 238px;}
+.ans4_1{position: absolute;top: 483px;left: 636px;}
+.ans5{position: absolute;top: 630px;left: 80px;}
+.ans5_1{position: absolute;top: 584px;left: 473px;}
   </style>
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
