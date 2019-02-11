@@ -28,8 +28,6 @@ layout: home
 
 [json..?](http://json2csharp.com/)  
 
-[proxy 리스트 사이트](https://www.xroxy.com/free-proxy-lists/?port=80&type=All_http&ssl=nossl&country&latency&reliability)  
-
 [파이썬을 파이썬답게](https://programmers.co.kr/learn/courses/4008/lessons/13254)  
 
 [정규식 뽑기](https://regexr.com/)  
