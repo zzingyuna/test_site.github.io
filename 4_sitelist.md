@@ -9,6 +9,8 @@ tagline: Sitelist
 
 [페이스북 테스트](http://www.fbrell.com/Sharing/2%20-%20FB.ui%20Dialogs)  
 
+[페이스북 해시태그 추가](https://www.facebook.com/sharer.php?u=[URL]&hashtag=%23AquiVaElHashtag)  
+
 [페이스북 api](https://developers.facebook.com/docs/reference/javascript/FB.getAuthResponse)  
 
 [url인코딩 디코딩](https://www.urldecoder.org/)  
