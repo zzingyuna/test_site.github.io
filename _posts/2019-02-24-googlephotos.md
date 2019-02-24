@@ -55,15 +55,18 @@ https://accounts.google.com/o/oauth2/v2/auth?response_type=code&redirect_uri=htt
 ```
 <html>
 <head>
-	
 </head>
 <body>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://apis.google.com/js/api.js"></script>
 <script src="https://apis.google.com/js/platform.js?onload=onLoadCallback" async defer></script>
 
 <a href="#" onclick="test(); return false;">click!!!</a>
-
+<div>
+	<ul id="photolist">
+	</ul>
+</div>
 <script>
 
     function onLoadCallback() {
@@ -85,10 +88,16 @@ https://accounts.google.com/o/oauth2/v2/auth?response_type=code&redirect_uri=htt
 function start() {
   // 2. Initialize the JavaScript client library.
 	gapi.client.request({
-	  'path': 'https://photoslibrary.googleapis.com/v1/albums',
+	  //'path': 'https://photoslibrary.googleapis.com/v1/albums',
+	  'path': 'https://photoslibrary.googleapis.com/v1/mediaItems',
 	})
 	.then(function(response) {
 	console.log(response.result);
+		var strList = "";
+		for(var i=0; i< response.result.mediaItems.length ; i++){
+			strList = strList+ "<li><img src='"+response.result.mediaItems[i].baseUrl+"'/>"+response.result.mediaItems[i].filename+"</li>";
+			$("#photolist").html(strList);
+		}
 	}, function(reason) {
 	console.log('Error: ' + reason.result.error.message);
 	});
