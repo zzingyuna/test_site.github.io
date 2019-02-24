@@ -8,7 +8,10 @@ layout: post
   
   
   
-   
+아래 사이트에서 계정 작업  
+[https://console.developers.google.com/](https://console.developers.google.com/)  
+
+
 1.계정 Auth권한 할당
 클라이언트 ID 및 API KEY 생성  
   
