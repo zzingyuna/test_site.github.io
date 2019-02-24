@@ -12,11 +12,11 @@ layout: post
 1.계정 Auth권한 할당
 클라이언트 ID 및 API KEY 생성  
   
-  <img src="https://zzingyuna.github.io/image/googlephoto1.jpg"/>  
-  <img src="https://zzingyuna.github.io/image/googlephoto2.jpg"/>  
-  <img src="https://zzingyuna.github.io/image/googlephoto3.jpg"/>  
-  <img src="https://zzingyuna.github.io/image/googlephoto4.jpg"/>  
-  <img src="https://zzingyuna.github.io/image/googlephoto5.jpg"/>  
+  <img src="https://zzingyuna.github.io/image/googlephoto1.JPG"/>  
+  <img src="https://zzingyuna.github.io/image/googlephoto2.JPG"/>  
+  <img src="https://zzingyuna.github.io/image/googlephoto3.JPG"/>  
+  <img src="https://zzingyuna.github.io/image/googlephoto4.JPG"/>  
+  <img src="https://zzingyuna.github.io/image/googlephoto5.JPG"/>  
   
   
   
