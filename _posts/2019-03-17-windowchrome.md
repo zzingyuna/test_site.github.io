@@ -58,7 +58,7 @@ namespace ConsoleApp1
 }
 
 ```
-결과  
+아래 드라이버 Nuget 설치할것! (OpenQA.Selenium 사용을 위해 필요)  
 ![alt text](https://zzingyuna.github.io/image/Selenium_WebDriver.JPG)  
 
 
