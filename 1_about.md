@@ -17,5 +17,5 @@ permalink: /about.html
 >
 >You can find the source code for _Jekyll_ at [jekyll](https://github.com/jekyll/jekyll)
 >
->
->[Go to the Home Page]({{ site.url }}{{ site.baseurl }})
+
+[Go to the Home Page]({{ site.url }}{{ site.baseurl }})
