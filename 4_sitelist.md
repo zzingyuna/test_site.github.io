@@ -39,4 +39,13 @@ tagline: Sitelist
 
 [닷넷커뮤니티](http://www.devpia.com/)  
 
-[타입스크립트](https://ahnheejong.gitbook.io/ts-for-jsdev/01-introducing-typescript/why-typescript)  
+[타입스크립트](https://ahnheejong.gitbook.io/ts-for-jsdev/01-introducing-typescript/why-typescript) 
+
+### 안드로이드 테스트 관련   
+[https://m.blog.naver.com/PostView.nhn?blogId=90600074&logNo=120199537891&proxyReferer=https%3A%2F%2Fwww.google.com%2F](https://m.blog.naver.com/PostView.nhn?blogId=90600074&logNo=120199537891&proxyReferer=https%3A%2F%2Fwww.google.com%2F)  
+[https://blog.naver.com/testexplorer/220785170361](https://blog.naver.com/testexplorer/220785170361)  
+[https://academy.realm.io/kr/posts/aw212-android-unit-ui-test-recorder-data-binding-include/](https://academy.realm.io/kr/posts/aw212-android-unit-ui-test-recorder-data-binding-include/)  
+
+
+
+
