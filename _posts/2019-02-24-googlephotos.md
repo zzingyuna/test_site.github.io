@@ -50,6 +50,11 @@ https://accounts.google.com/o/oauth2/v2/auth?response_type=code&redirect_uri=htt
   <img src="https://zzingyuna.github.io/image/googlephoto3.JPG"/>  
   <img src="https://zzingyuna.github.io/image/googlephoto4.JPG"/>  
   <img src="https://zzingyuna.github.io/image/googlephoto5.JPG"/>  
+  <img src="https://zzingyuna.github.io/image/googlephoto6.JPG"/>  
+  <img src="https://zzingyuna.github.io/image/googlephoto7.JPG"/>  
+  <img src="https://zzingyuna.github.io/image/googlephoto8.JPG"/>  
+  <img src="https://zzingyuna.github.io/image/googlephoto9.JPG"/>  
+  <img src="https://zzingyuna.github.io/image/googlephoto10.JPG"/>  
   
   
   
