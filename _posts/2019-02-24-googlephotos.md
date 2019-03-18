@@ -30,7 +30,8 @@ tOMcEukTtplWLiauC-vRvWOJ
 https://developers.google.com/api-client-library/javascript/start/start-js
   
 구글포토api 관련 링크  
-https://developers.google.com/photos/library/guides/get-started
+[https://developers.google.com/photos/library/guides/get-started](https://developers.google.com/photos/library/guides/get-started)  
+[https://developers.google.com/photos/library/reference/rest/?hl=bg](https://developers.google.com/photos/library/reference/rest/?hl=bg)  
   
 -- 잘 동작함 (들어가면 click누르면 앨범 리스트 데이터 가져옴)  
 https://accounts.google.com/o/oauth2/v2/auth?response_type=code&redirect_uri=http://localhost/study/test.html&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fphotoslibrary.readonly%20profile&client_id=307558157269-tfuep5e4ece7hj0lun4gog6lki2mpht2.apps.googleusercontent.com
