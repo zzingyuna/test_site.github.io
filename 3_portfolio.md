@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 경력기술서
+title: Skill Inventory
 tagline: Portfolio
 ---
 
