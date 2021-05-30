@@ -25,9 +25,9 @@ permalink: /about.html
 >
 [https://github.com/zzingyuna/StudyWPF.git](https://github.com/zzingyuna/StudyWPF.git)  
   
->java(X)  
+>java  
 >
-[https://github.com/zzingyuna/studyjava_20200208.git](https://github.com/zzingyuna/studyjava_20200208.git)  
+[https://github.com/zzingyuna/StudyJava.git](https://github.com/zzingyuna/StudyJava.git)  
   
 >React  
 >
