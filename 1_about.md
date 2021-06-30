@@ -44,10 +44,11 @@ permalink: /about.html
 
 
 ## React Project
-# jjsong2, yayaya126
-#
-#
-#
+# jjsong2, yayaya126  
+
+
+
+
 ###### User.json 별도 서버 구성
 ```
 cd ~/data  
